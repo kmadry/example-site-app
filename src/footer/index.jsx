@@ -1,10 +1,11 @@
 import React from 'react';
+import Button from '@mui/material/Button';
 
 const Footer = ({date, click}) => {
   return (
     <div className="FooterApp">
       <div>Footer {date}</div>
-      <button onClick={click}>Do it!</button>
+      <Button variant="contained" onClick={click}>Do it!</Button>
     </div>
   );
 };
